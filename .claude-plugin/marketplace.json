@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "qplace-marketplace",
+  "description": "QPlace 직원을 위한 Claude Code 플러그인 마켓플레이스",
+  "owner": {
+    "name": "qplace-company",
+    "email": "admin@qplace.kr"
+  },
+  "plugins": [
+    {
+      "name": "ultrawork",
+      "description": "병렬 에이전트 실행, 모든 외부 도구 총동원, 완료 강제 모드. oh-my-opencode의 Ultrawork 패턴 구현.",
+      "author": {
+        "name": "gprecious",
+        "email": "gprecious@users.noreply.github.com"
+      },
+      "source": "./plugins/ultrawork",
+      "category": "productivity",
+      "homepage": "https://github.com/qplace-company/qplace-marketplace"
+    }
+  ]
+}

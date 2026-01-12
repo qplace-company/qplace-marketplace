@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/settings.schema.json",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "ultrawork|ulw",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[ULTRAWORK] Parallel agent mode activated - All tools engaged, completion enforced'"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)",
+      "Bash(pnpm:*)",
+      "Bash(yarn:*)",
+      "Bash(npx:*)",
+      "Bash(git:*)",
+      "Task"
+    ]
+  }
+}

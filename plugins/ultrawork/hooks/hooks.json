@@ -1,0 +1,29 @@
+{
+  "description": "Ultrawork 에이전트 출력 제어 및 검증",
+  "hooks": {
+    "SubagentStop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/truncate-output.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/validate-task-output.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
