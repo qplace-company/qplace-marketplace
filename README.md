@@ -9,18 +9,18 @@ QPlace 직원을 위한 Claude Code 플러그인 마켓플레이스.
 claude plugin marketplace add qplace-company/qplace-marketplace
 
 # 플러그인 설치
-claude plugin install ultrawork
+claude plugin install qplace-super-power
 ```
 
 ## 포함된 플러그인
 
 | 플러그인 | 설명 | 카테고리 |
 |---------|------|---------|
-| [ultrawork](./plugins/ultrawork) | 병렬 에이전트 실행, 모든 외부 도구 총동원, 완료 강제 모드 | productivity |
+| [qplace-super-power](./plugins/qplace-super-power) | 병렬 에이전트 실행, 모든 외부 도구 총동원, 완료 강제 모드 | productivity |
 
 ## 의존성
 
-ultrawork 플러그인을 사용하려면 다음 플러그인들이 **반드시** 활성화되어 있어야 합니다:
+qplace-super-power 플러그인을 사용하려면 다음 플러그인들이 **반드시** 활성화되어 있어야 합니다:
 
 ```bash
 # 필수 플러그인

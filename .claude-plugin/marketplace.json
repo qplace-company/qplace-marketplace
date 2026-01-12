@@ -8,13 +8,13 @@
   },
   "plugins": [
     {
-      "name": "ultrawork",
-      "description": "병렬 에이전트 실행, 모든 외부 도구 총동원, 완료 강제 모드. oh-my-opencode의 Ultrawork 패턴 구현.",
+      "name": "qplace-super-power",
+      "description": "병렬 에이전트 실행, 모든 외부 도구 총동원, 완료 강제 모드. QPlace 전용 생산성 부스터.",
       "author": {
         "name": "gprecious",
         "email": "gprecious@users.noreply.github.com"
       },
-      "source": "./plugins/ultrawork",
+      "source": "./plugins/qplace-super-power",
       "category": "productivity",
       "homepage": "https://github.com/qplace-company/qplace-marketplace"
     }
