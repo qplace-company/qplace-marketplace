@@ -1,21 +1,21 @@
 ---
-name: ultrawork
-description: ulw 또는 ultrawork 키워드로 활성화되는 병렬 에이전트 오케스트레이션 모드. "ulw:", "ultrawork:", "ulw", "울트라워크" 입력 시 사용. 모든 외부 도구 총동원, 완료 강제 모드. oh-my-opencode의 Ultrawork/Sisyphus 패턴 구현.
+name: qplace-super-power
+description: qsp 또는 qplace-super-power 키워드로 활성화되는 QPlace 업무 특화 병렬 에이전트 오케스트레이션 모드. "qsp:", "qplace-super-power:" 입력 시 사용. 모든 외부 도구 총동원, 완료 강제 모드. Sisyphus/Ultrawork 패턴 기반.
 ---
 
-# Ultrawork Mode
+# QPlace Super Power Mode
 
-oh-my-opencode의 Ultrawork 패턴을 Claude Code에 구현한 모드.
+QPlace 업무에 특화된 병렬 에이전트 오케스트레이션 모드.
 
-프롬프트에 `ultrawork` 또는 `ulw` 키워드가 포함되면 이 모드가 활성화됩니다.
+프롬프트에 `qplace-super-power` 또는 `qsp` 키워드가 포함되면 이 모드가 활성화됩니다.
 
 ## 활성화 시 사용자 알림 (필수)
 
-다음 배너를 **반드시** 출력하여 사용자에게 Ultrawork 모드 활성화를 명확히 알립니다:
+다음 배너를 **반드시** 출력하여 사용자에게 QPlace Super Power 모드 활성화를 명확히 알립니다:
 
 ```
 ╔════════════════════════════════════════════════════════════════╗
-║  🚀 ULTRAWORK MODE ACTIVATED                                   ║
+║  🚀 QPLACE SUPER POWER MODE ACTIVATED                          ║
 ╠════════════════════════════════════════════════════════════════╣
 ║  ✓ 병렬 에이전트 실행 (explore + librarian + multimodal)       ║
 ║  ✓ 모든 외부 도구 총동원                                       ║
@@ -109,11 +109,11 @@ oh-my-opencode의 Ultrawork 패턴을 Claude Code에 구현한 모드.
 ## 사용 예시
 
 ```
-사용자: ultrawork: 새로운 API 엔드포인트 추가해줘
+사용자: qsp: 새로운 API 엔드포인트 추가해줘
 
 Claude:
 ╔════════════════════════════════════════════════════════════════╗
-║  🚀 ULTRAWORK MODE ACTIVATED                                   ║
+║  🚀 QPLACE SUPER POWER MODE ACTIVATED                          ║
 ╠════════════════════════════════════════════════════════════════╣
 ║  ✓ 병렬 에이전트 실행 (explore + librarian + multimodal)       ║
 ║  ✓ 모든 외부 도구 총동원                                       ║

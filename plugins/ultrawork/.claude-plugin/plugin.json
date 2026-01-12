@@ -1,9 +1,0 @@
-{
-  "name": "ultrawork",
-  "version": "1.0.0",
-  "description": "Sisyphus/Ultrawork 패턴 기반 병렬 에이전트 오케스트레이션. oh-my-opencode 영감.",
-  "author": {
-    "name": "gprecious",
-    "email": "gprecious@users.noreply.github.com"
-  }
-}

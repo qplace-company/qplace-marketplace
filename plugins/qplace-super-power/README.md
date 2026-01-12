@@ -1,6 +1,6 @@
-# Ultrawork Plugin for Claude Code
+# QPlace Super Power Plugin for Claude Code
 
-oh-my-opencode의 Sisyphus/Ultrawork 패턴을 Claude Code에 구현한 플러그인.
+QPlace 업무에 특화된 병렬 에이전트 오케스트레이션 플러그인. Sisyphus/Ultrawork 패턴 기반.
 
 ## 특징
 
@@ -43,36 +43,36 @@ claude plugin install code-reviewer
 ### Claude Code Plugin Marketplace
 
 ```bash
-claude plugin install ultrawork
+claude plugin install qplace-super-power
 ```
 
 ### 수동 설치
 
 1. 이 레포지토리를 클론합니다:
 ```bash
-git clone https://github.com/qplace-company/ultrawork-plugin.git
+git clone https://github.com/qplace-company/qplace-marketplace.git
 ```
 
 2. 프로젝트의 `.claude/` 디렉토리에 파일들을 복사합니다:
 ```bash
-cp -r ultrawork-plugin/agents/* your-project/.claude/agents/
-cp -r ultrawork-plugin/skills/* your-project/.claude/skills/
+cp -r qplace-marketplace/plugins/qplace-super-power/agents/* your-project/.claude/agents/
+cp -r qplace-marketplace/plugins/qplace-super-power/skills/* your-project/.claude/skills/
 ```
 
 3. (선택) `settings.template.json`의 내용을 프로젝트의 `.claude/settings.json`에 병합합니다.
 
 ## 사용법
 
-프롬프트에 `ultrawork` 또는 `ulw` 키워드를 포함하면 Ultrawork 모드가 활성화됩니다.
+프롬프트에 `qplace-super-power` 또는 `qsp` 키워드를 포함하면 QPlace Super Power 모드가 활성화됩니다.
 
 ```
-ultrawork: 새로운 API 엔드포인트를 추가해줘
+qsp: 새로운 API 엔드포인트를 추가해줘
 ```
 
 또는
 
 ```
-ulw 사용자 인증 기능 구현해줘
+qplace-super-power: 사용자 인증 기능 구현해줘
 ```
 
 ## 에이전트 구성

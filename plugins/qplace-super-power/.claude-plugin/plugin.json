@@ -1,0 +1,9 @@
+{
+  "name": "qplace-super-power",
+  "version": "1.0.0",
+  "description": "QPlace 업무 특화 병렬 에이전트 오케스트레이션. Sisyphus/Ultrawork 패턴 기반.",
+  "author": {
+    "name": "qplace-company",
+    "email": "harry@qplace.kr"
+  }
+}

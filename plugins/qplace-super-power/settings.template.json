@@ -3,11 +3,11 @@
   "hooks": {
     "UserPromptSubmit": [
       {
-        "matcher": "ultrawork|ulw",
+        "matcher": "qplace-super-power|qsp",
         "hooks": [
           {
             "type": "command",
-            "command": "echo '[ULTRAWORK] Parallel agent mode activated - All tools engaged, completion enforced'"
+            "command": "echo '[QPLACE SUPER POWER] Parallel agent mode activated - All tools engaged, completion enforced'"
           }
         ]
       }
