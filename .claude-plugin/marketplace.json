@@ -17,6 +17,22 @@
       "source": "./plugins/qplace-super-power",
       "category": "productivity",
       "homepage": "https://github.com/qplace-company/qplace-marketplace"
+    },
+    {
+      "name": "qplace-memory",
+      "description": "QPLACE 기관기억(Memory OS) MCP 서버 — memory_recall 등 read-only 도구로 과거 결정·정책·소스 요약을 회상. 설치 전 ssot 의 tools/qplace-memory-mcp/bootstrap.sh 선행 필요.",
+      "author": {
+        "name": "qplace-company",
+        "email": "admin@qplace.kr"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/qplace-company/qplace-ssot.git",
+        "path": "plugins/qplace-memory",
+        "ref": "main"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/qplace-company/qplace-ssot/tree/main/plugins/qplace-memory"
     }
   ]
 }
